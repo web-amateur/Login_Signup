@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+	background:#099;
+}
+	
+body{
+	background-color:#9FF;}
+
+input{
+	border-radius:10px;
+	font-family:Verdana;
+	margin:10px;
+	padding:10px;
+}
+
+form{
+	text-align:center;
+	box-sizing:border-box;
+	border-radius:20px;
+	width:500px;
+	margin:40px auto 0;
+	margin-left:410px;
+	box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	background-color:white;
+	}
+	
+form h1{
+	background:#099;
+	box-sizing:border-box;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+	padding:20px;
+}
+
+
+button,#button{
+	border:10px #3CF;
+	border-radius:10px;
+	width:150px;
+	background:#099;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	margin:20px 110px;
+	color:white;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+button,#button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+form #note{
+	background:#099;
+	box-sizing:border-box;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:normal;
+	color:white;	
+	padding:20px;}
+	
+#agree{
+	padding-left:-40px;}
+	
+#date{
+	text-align:center;
+	font-style:italic;}
+
+#re-login{
+	font-size:14px;
+	font-style:italic;
+	color:#099;}
+	
+i{
+	color:#099;
+	font-size:13px;}
+	

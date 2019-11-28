@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-background{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+	background:#099;
+}
+
+head{
+	background-color:#099;}
+	
+body{
+	background-color:#9FF;}
+
+form{
+	text-align:center;
+	box-sizing:border-box;
+	border-radius:20px;
+	width:350px;
+	margin:40px auto 0;
+	margin-left:490px;
+	box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+	background-color:white;
+	}
+	
+form h1{
+	background:#099;
+	box-sizing:border-box;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:white;
+	padding:20px;
+	}
+form #note{
+	background:#099;
+	box-sizing:border-box;
+	border-bottom-right-radius:20px;
+	border-bottom-left-radius:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:normal;
+	color:white;	
+	padding:20px;}
+
+
+input{
+	border-radius:10px;
+	font-family:Verdana;
+	margin:10px 10px;
+	padding:10px;
+}
+
+#button{
+	border:10px #3CF;
+	border-radius:10px;
+	width:150px;
+	background-color:#099;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	margin:20px 110px;
+	color:white;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+form a,p{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:italic;
+	font-size:14px;
+}
+
+#rem-pass{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:italic;
+	color:#099;
+	padding-left:-40px;}
+	
+#for-pass{
+	font-size:14px;
+	font-style:italic;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#099;
+	text-align:center;
+	padding-bottom:10px;}
+
+span{
+	font-size:13px;
+	font-family:Verdana;
+}
